@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Amazon Website Automation using Selenium">
+
+    <test name="Amazon MiniTv">
+        <classes>
+            <class name="testrunner.AmazonMiniTVTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="ConnectUs Module">
+        <classes>
+            <class name="testrunner.ConnectUsLinkTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Country And Currency Page">
+        <classes>
+            <class name="testrunner.CountryAndCurrencyTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="language">
+        <classes>
+            <class name="testrunner.LanguageTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="product Cart">
+        <classes>
+            <class name="testrunner.ProductCartTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Product Search functionality">
+        <classes>
+            <class name="testrunner.ProductSearchTestRunner"/>
+        </classes>
+    </test>
+
+
+</suite>
